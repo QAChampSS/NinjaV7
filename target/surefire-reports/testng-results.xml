@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-20T15:55:02 EDT" name="Suite" finished-at="2025-05-20T15:56:53 EDT" duration-ms="110942">
+    <groups>
+      <group name="datadriven">
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@36328d33]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@6d025197]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@72437d8d]" name="testLogin" class="testCases.TC02_Login"/>
+      </group> <!-- datadriven -->
+      <group name="regression">
+        <method signature="TC01_LaunchApplication.testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@34c01041]" name="testLaunchApplication" class="testCases.TC01_LaunchApplication"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@36328d33]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC03_AddToCart.addToCart()[pri:0, instance:testCases.TC03_AddToCart@76f4b65]" name="addToCart" class="testCases.TC03_AddToCart"/>
+        <method signature="TC04_CompletePurchase_SidCode.addToCart()[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@63fbfaeb]" name="addToCart" class="testCases.TC04_CompletePurchase_SidCode"/>
+        <method signature="TC06_AddAffiliate.testAddAffiliate()[pri:0, instance:testCases.TC06_AddAffiliate@c94fd30]" name="testAddAffiliate" class="testCases.TC06_AddAffiliate"/>
+        <method signature="TC01_LaunchApplication.testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@65a15628]" name="testLaunchApplication" class="testCases.TC01_LaunchApplication"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@6d025197]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC03_AddToCart.addToCart()[pri:0, instance:testCases.TC03_AddToCart@2e6a5539]" name="addToCart" class="testCases.TC03_AddToCart"/>
+        <method signature="TC04_CompletePurchase_SidCode.addToCart()[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@5460cf3a]" name="addToCart" class="testCases.TC04_CompletePurchase_SidCode"/>
+        <method signature="TC06_AddAffiliate.testAddAffiliate()[pri:0, instance:testCases.TC06_AddAffiliate@3fc9504b]" name="testAddAffiliate" class="testCases.TC06_AddAffiliate"/>
+        <method signature="TC01_LaunchApplication.testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@b7c4869]" name="testLaunchApplication" class="testCases.TC01_LaunchApplication"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@72437d8d]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC03_AddToCart.addToCart()[pri:0, instance:testCases.TC03_AddToCart@740d2e78]" name="addToCart" class="testCases.TC03_AddToCart"/>
+        <method signature="TC04_CompletePurchase_SidCode.addToCart()[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@7e4204e2]" name="addToCart" class="testCases.TC04_CompletePurchase_SidCode"/>
+        <method signature="TC06_AddAffiliate.testAddAffiliate()[pri:0, instance:testCases.TC06_AddAffiliate@1c481ff2]" name="testAddAffiliate" class="testCases.TC06_AddAffiliate"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC01_LaunchApplication.testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@34c01041]" name="testLaunchApplication" class="testCases.TC01_LaunchApplication"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@36328d33]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC03_AddToCart.addToCart()[pri:0, instance:testCases.TC03_AddToCart@76f4b65]" name="addToCart" class="testCases.TC03_AddToCart"/>
+        <method signature="TC04_CompletePurchase_SidCode.addToCart()[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@63fbfaeb]" name="addToCart" class="testCases.TC04_CompletePurchase_SidCode"/>
+        <method signature="TC01_LaunchApplication.testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@65a15628]" name="testLaunchApplication" class="testCases.TC01_LaunchApplication"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@6d025197]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC03_AddToCart.addToCart()[pri:0, instance:testCases.TC03_AddToCart@2e6a5539]" name="addToCart" class="testCases.TC03_AddToCart"/>
+        <method signature="TC04_CompletePurchase_SidCode.addToCart()[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@5460cf3a]" name="addToCart" class="testCases.TC04_CompletePurchase_SidCode"/>
+        <method signature="TC01_LaunchApplication.testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@b7c4869]" name="testLaunchApplication" class="testCases.TC01_LaunchApplication"/>
+        <method signature="TC02_Login.testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@72437d8d]" name="testLogin" class="testCases.TC02_Login"/>
+        <method signature="TC03_AddToCart.addToCart()[pri:0, instance:testCases.TC03_AddToCart@740d2e78]" name="addToCart" class="testCases.TC03_AddToCart"/>
+        <method signature="TC04_CompletePurchase_SidCode.addToCart()[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@7e4204e2]" name="addToCart" class="testCases.TC04_CompletePurchase_SidCode"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-05-20T15:55:02 EDT" name="chromeTest" finished-at="2025-05-20T15:56:43 EDT" duration-ms="101114">
+      <class name="testCases.TC02_Login">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@36328d33]" started-at="2025-05-20T15:56:30 EDT" name="openApp" finished-at="2025-05-20T15:56:32 EDT" duration-ms="2204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@36328d33]" started-at="2025-05-20T15:56:34 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:36 EDT" duration-ms="1741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smitasharma.qa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ss*QA123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@36328d33]" started-at="2025-05-20T15:56:36 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:38 EDT" duration-ms="1823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nona@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QWER!@#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@36328d33]" started-at="2025-05-20T15:56:38 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:39 EDT" duration-ms="1340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sid@cloudberry.services]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@36328d33]" started-at="2025-05-20T15:56:39 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:40 EDT" duration-ms="1570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[apushedwoman@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@36328d33]" started-at="2025-05-20T15:56:40 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:42 EDT" duration-ms="1867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hichamkhachiai@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hicham123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC02_Login@36328d33]" started-at="2025-05-20T15:56:42 EDT" name="closeApp" finished-at="2025-05-20T15:56:43 EDT" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC02_Login -->
+      <class name="testCases.TC04_CompletePurchase_SidCode">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@63fbfaeb]" started-at="2025-05-20T15:55:02 EDT" name="openApp" finished-at="2025-05-20T15:55:05 EDT" duration-ms="3725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="addToCart()[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@63fbfaeb]" started-at="2025-05-20T15:55:05 EDT" name="addToCart" finished-at="2025-05-20T15:56:15 EDT" duration-ms="69518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@63fbfaeb]" started-at="2025-05-20T15:56:15 EDT" name="closeApp" finished-at="2025-05-20T15:56:15 EDT" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC04_CompletePurchase_SidCode -->
+      <class name="testCases.TC01_LaunchApplication">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_LaunchApplication@34c01041]" started-at="2025-05-20T15:56:15 EDT" name="openApp" finished-at="2025-05-20T15:56:18 EDT" duration-ms="2170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@34c01041]" started-at="2025-05-20T15:56:18 EDT" name="testLaunchApplication" finished-at="2025-05-20T15:56:18 EDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaunchApplication -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC01_LaunchApplication@34c01041]" started-at="2025-05-20T15:56:18 EDT" name="closeApp" finished-at="2025-05-20T15:56:18 EDT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC01_LaunchApplication -->
+      <class name="testCases.TC03_AddToCart">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AddToCart@76f4b65]" started-at="2025-05-20T15:56:18 EDT" name="openApp" finished-at="2025-05-20T15:56:20 EDT" duration-ms="2080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="addToCart()[pri:0, instance:testCases.TC03_AddToCart@76f4b65]" started-at="2025-05-20T15:56:20 EDT" name="addToCart" finished-at="2025-05-20T15:56:23 EDT" duration-ms="3568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC03_AddToCart@76f4b65]" started-at="2025-05-20T15:56:23 EDT" name="closeApp" finished-at="2025-05-20T15:56:24 EDT" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC03_AddToCart -->
+      <class name="testCases.TC06_AddAffiliate">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC06_AddAffiliate@c94fd30]" started-at="2025-05-20T15:56:24 EDT" name="openApp" finished-at="2025-05-20T15:56:26 EDT" duration-ms="2056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testAddAffiliate()[pri:0, instance:testCases.TC06_AddAffiliate@c94fd30]" started-at="2025-05-20T15:56:26 EDT" name="testAddAffiliate" finished-at="2025-05-20T15:56:30 EDT" duration-ms="4319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAffiliate -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC06_AddAffiliate@c94fd30]" started-at="2025-05-20T15:56:30 EDT" name="closeApp" finished-at="2025-05-20T15:56:30 EDT" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC06_AddAffiliate -->
+    </test> <!-- chromeTest -->
+    <test started-at="2025-05-20T15:55:02 EDT" name="edgeTest" finished-at="2025-05-20T15:56:47 EDT" duration-ms="105527">
+      <class name="testCases.TC02_Login">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@72437d8d]" started-at="2025-05-20T15:56:35 EDT" name="openApp" finished-at="2025-05-20T15:56:37 EDT" duration-ms="2137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@72437d8d]" started-at="2025-05-20T15:56:38 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:39 EDT" duration-ms="1642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smitasharma.qa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ss*QA123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@72437d8d]" started-at="2025-05-20T15:56:39 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:41 EDT" duration-ms="1438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nona@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QWER!@#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@72437d8d]" started-at="2025-05-20T15:56:41 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:42 EDT" duration-ms="1613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sid@cloudberry.services]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@72437d8d]" started-at="2025-05-20T15:56:42 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:44 EDT" duration-ms="1574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[apushedwoman@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@72437d8d]" started-at="2025-05-20T15:56:44 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:46 EDT" duration-ms="1649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hichamkhachiai@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hicham123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC02_Login@72437d8d]" started-at="2025-05-20T15:56:46 EDT" name="closeApp" finished-at="2025-05-20T15:56:47 EDT" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC02_Login -->
+      <class name="testCases.TC04_CompletePurchase_SidCode">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@7e4204e2]" started-at="2025-05-20T15:55:02 EDT" name="openApp" finished-at="2025-05-20T15:55:05 EDT" duration-ms="3709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="addToCart()[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@7e4204e2]" started-at="2025-05-20T15:55:05 EDT" name="addToCart" finished-at="2025-05-20T15:56:15 EDT" duration-ms="69183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@7e4204e2]" started-at="2025-05-20T15:56:15 EDT" name="closeApp" finished-at="2025-05-20T15:56:16 EDT" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC04_CompletePurchase_SidCode -->
+      <class name="testCases.TC01_LaunchApplication">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_LaunchApplication@b7c4869]" started-at="2025-05-20T15:56:16 EDT" name="openApp" finished-at="2025-05-20T15:56:18 EDT" duration-ms="2284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@b7c4869]" started-at="2025-05-20T15:56:18 EDT" name="testLaunchApplication" finished-at="2025-05-20T15:56:18 EDT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaunchApplication -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC01_LaunchApplication@b7c4869]" started-at="2025-05-20T15:56:18 EDT" name="closeApp" finished-at="2025-05-20T15:56:20 EDT" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC01_LaunchApplication -->
+      <class name="testCases.TC03_AddToCart">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AddToCart@740d2e78]" started-at="2025-05-20T15:56:20 EDT" name="openApp" finished-at="2025-05-20T15:56:22 EDT" duration-ms="2350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="addToCart()[pri:0, instance:testCases.TC03_AddToCart@740d2e78]" started-at="2025-05-20T15:56:22 EDT" name="addToCart" finished-at="2025-05-20T15:56:26 EDT" duration-ms="3807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC03_AddToCart@740d2e78]" started-at="2025-05-20T15:56:26 EDT" name="closeApp" finished-at="2025-05-20T15:56:28 EDT" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC03_AddToCart -->
+      <class name="testCases.TC06_AddAffiliate">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC06_AddAffiliate@1c481ff2]" started-at="2025-05-20T15:56:28 EDT" name="openApp" finished-at="2025-05-20T15:56:30 EDT" duration-ms="2319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testAddAffiliate()[pri:0, instance:testCases.TC06_AddAffiliate@1c481ff2]" started-at="2025-05-20T15:56:30 EDT" name="testAddAffiliate" finished-at="2025-05-20T15:56:34 EDT" duration-ms="4104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAffiliate -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC06_AddAffiliate@1c481ff2]" started-at="2025-05-20T15:56:34 EDT" name="closeApp" finished-at="2025-05-20T15:56:35 EDT" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC06_AddAffiliate -->
+    </test> <!-- edgeTest -->
+    <test started-at="2025-05-20T15:55:02 EDT" name="firefoxTest" finished-at="2025-05-20T15:56:53 EDT" duration-ms="110942">
+      <class name="testCases.TC02_Login">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@6d025197]" started-at="2025-05-20T15:56:40 EDT" name="openApp" finished-at="2025-05-20T15:56:44 EDT" duration-ms="3912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@6d025197]" started-at="2025-05-20T15:56:44 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:46 EDT" duration-ms="1659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smitasharma.qa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ss*QA123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@6d025197]" started-at="2025-05-20T15:56:46 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:47 EDT" duration-ms="1467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nona@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QWER!@#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@6d025197]" started-at="2025-05-20T15:56:47 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:49 EDT" duration-ms="1312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sid@cloudberry.services]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@6d025197]" started-at="2025-05-20T15:56:49 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:50 EDT" duration-ms="1233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[apushedwoman@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_Login@6d025197]" started-at="2025-05-20T15:56:50 EDT" name="testLogin" data-provider="LoginData" finished-at="2025-05-20T15:56:51 EDT" duration-ms="1217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hichamkhachiai@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hicham123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC02_Login@6d025197]" started-at="2025-05-20T15:56:51 EDT" name="closeApp" finished-at="2025-05-20T15:56:53 EDT" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC02_Login -->
+      <class name="testCases.TC04_CompletePurchase_SidCode">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@5460cf3a]" started-at="2025-05-20T15:55:02 EDT" name="openApp" finished-at="2025-05-20T15:55:07 EDT" duration-ms="5275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="addToCart()[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@5460cf3a]" started-at="2025-05-20T15:55:07 EDT" name="addToCart" finished-at="2025-05-20T15:56:16 EDT" duration-ms="68771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC04_CompletePurchase_SidCode@5460cf3a]" started-at="2025-05-20T15:56:16 EDT" name="closeApp" finished-at="2025-05-20T15:56:17 EDT" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC04_CompletePurchase_SidCode -->
+      <class name="testCases.TC01_LaunchApplication">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_LaunchApplication@65a15628]" started-at="2025-05-20T15:56:17 EDT" name="openApp" finished-at="2025-05-20T15:56:21 EDT" duration-ms="3494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLaunchApplication()[pri:0, instance:testCases.TC01_LaunchApplication@65a15628]" started-at="2025-05-20T15:56:21 EDT" name="testLaunchApplication" finished-at="2025-05-20T15:56:21 EDT" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaunchApplication -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC01_LaunchApplication@65a15628]" started-at="2025-05-20T15:56:21 EDT" name="closeApp" finished-at="2025-05-20T15:56:22 EDT" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC01_LaunchApplication -->
+      <class name="testCases.TC03_AddToCart">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_AddToCart@2e6a5539]" started-at="2025-05-20T15:56:22 EDT" name="openApp" finished-at="2025-05-20T15:56:26 EDT" duration-ms="3688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="addToCart()[pri:0, instance:testCases.TC03_AddToCart@2e6a5539]" started-at="2025-05-20T15:56:26 EDT" name="addToCart" finished-at="2025-05-20T15:56:29 EDT" duration-ms="3574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC03_AddToCart@2e6a5539]" started-at="2025-05-20T15:56:29 EDT" name="closeApp" finished-at="2025-05-20T15:56:31 EDT" duration-ms="1950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC03_AddToCart -->
+      <class name="testCases.TC06_AddAffiliate">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC06_AddAffiliate@3fc9504b]" started-at="2025-05-20T15:56:31 EDT" name="openApp" finished-at="2025-05-20T15:56:35 EDT" duration-ms="3582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testAddAffiliate()[pri:0, instance:testCases.TC06_AddAffiliate@3fc9504b]" started-at="2025-05-20T15:56:35 EDT" name="testAddAffiliate" finished-at="2025-05-20T15:56:39 EDT" duration-ms="3737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAffiliate -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.TC06_AddAffiliate@3fc9504b]" started-at="2025-05-20T15:56:39 EDT" name="closeApp" finished-at="2025-05-20T15:56:40 EDT" duration-ms="1540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.TC06_AddAffiliate -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
